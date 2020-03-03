@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/6d54e0ab0d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <header>
         <div class="wrapper">
-            <div class="header-flex">
+            <div class="header-container">
                 <nav>
                     <ul>
                         <li>
-                            <a href="#">home</a>
+                            <a href="index.html">home</a>
                         </li>
                         <li>
-                            <a href="#">about</a>
+                            <a href="#about">about</a>
                         </li>
                         <li>
                             <a href="#">reserve</a>
@@ -25,10 +25,10 @@
                     </ul>
                     <ul>
                         <li>
-                            <a href="#">blog</a>
+                            <a href="blog.html">blog</a>
                         </li>
                         <li>
-                            <a href="#">contact</a>
+                            <a href="contact.html">contact</a>
                         </li>
                     </ul>
                 </nav>
@@ -44,19 +44,116 @@
                         </a>
                     </li>
                 </ul>
-                <h1>Sunshine</h1>
+                <h1 class="nav-header">Sunshine</h1>
             </div>
             <section class="hero"></section>
         </div>
     </header>
     <main>
         <div class="wrapper">
-
+            <section class="about" id="about">
+                <div class="about-container">
+                    <h2 class="home-section-header-1">a little about us</h2>
+                    <div class="about-article">
+                        <div class="girl-photo"></div>
+                        <div class="about-article-content">
+                            <h3 class="about-article-header">A great place to enjoy your life</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut optio, delectus repellat accusantium laborum temporibus praesentium laboriosam tenetur suscipit enim! Voluptatum excepturi a rerum repudiandae atque beatae voluptate nemo animi, neque perferendis autem, sint fuga officia recusandae, aperiam nobis ab!</p>
+                            <p>Ethan Hunt - Director at Monalisa</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="features">
+                <ul>
+                    <li>  
+                        <i class="fas fa-sun"></i>
+                        <h4 class="feature-header">sunny season</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, eligendi aliquid. Dignissimos deleniti minus molestias!</p>
+                    </li>
+                    <li>
+                        <i class="fa fa-utensils"></i>
+                        <h4 class="feature-header">five star restaurants</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, eligendi aliquid. Dignissimos deleniti minus
+                            molestias!</p>
+                    </li>
+                    <li>
+                        <i class="fa fa-plane"></i>
+                        <h4 class="feature-header">flight included</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, eligendi aliquid. Dignissimos deleniti minus
+                            molestias!</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-glass-martini"></i>
+                        <h4 class="feature-header">all inclusive</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, eligendi aliquid. Dignissimos deleniti minus
+                            molestias!</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-leaf"></i>
+                        <h4 class="feature-header">guided nature excursions</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, eligendi aliquid. Dignissimos deleniti minus
+                            molestias!</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-bell"></i>
+                        <h4 class="feature-header">wake up service</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, eligendi aliquid. Dignissimos deleniti minus
+                            molestias!</p>
+                    </li>
+                </ul>
+                <img src="./assets/home-3.jpeg" alt="Jungle mountains behind a sunny tropical beach">
+            </section>
+            <section class="testimonial">
+                <div class="testimonial-container">
+                    <i class="fas fa-angle-left"></i>
+                    <div class="testimonial-box">
+                        <h2 class="home-section-header-1">testimonial</h2>
+                        <h5 class="home-section-header-2">What Clients Say</h5>
+                        <p class="testimonial-quote">" Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, error, ad repudiandae sapiente ea quis ipsum ratione nostrum deserunt cupiditate optio, porro rem quod harum temporibus excepturi! "</p>
+                        <div class="stars">
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <p>Adam Levine - Review from TripAdvisor</p>
+                    </div>
+                    <i class="fas fa-angle-right"></i>
+                </div>
+            </section>
+            <section class="explorer">
+                <div class="explore-container">
+                    <h2 class="home-section-header-1">explore</h2>
+                    <h5 class="home-section-header-2">Gallery</h5>
+                    <div class="gallery-image-container">
+                        <img src="./assets/home-4.jpeg" alt="Green jungle leaves">
+                        <img src="./assets/home-5.jpeg" alt="Woman floating on her back on top of tropical blue ocean water">
+                        <img src="./assets/home-6.jpeg" alt="Close-up photo of a large wave near a sunny beach">
+                        <img src="./assets/home-7.jpeg" alt="beach resort patio">
+                        <img src="./assets/home-8.jpeg" alt="tropical vacation gear in open suitcase">
+                        <img src="./assets/home-9.jpeg" alt="person standing at the foot of a jungle waterfall">
+                    </div>
+                </div>
+            </section>
+            <section class="information">
+                <img src="./assets/home-10.jpeg" alt="overhead photo of a tropical beach resort">
+                <div class="information-container">
+                    <h2 class="home-section-header-1">information</h2>
+                    <h5 class="home-section-header-2">Contact us</h5>
+                    <p>Honolulu, Hawaii</p>
+                    <p>123 King Str, 4th Floor, Utral Hosue Building, Honolulu, Hawaii</p>
+                    <p>Email: info@sunshinehotel.com</p>
+                    <p>Call directly:</p>
+                    <p>+99 (0) 344 956 4050</p>
+                </div>
+            </section>
         </div>
     </main>
     <footer>
         <ul class="wrapper">
-            <div class="footer-flex">
+            <div class="footer-container">
                 <ul class="footer-links-1">
                     <li>
                         <a href="#">Site Map</a>
@@ -79,7 +176,7 @@
                         <a href="#">FAQs</a>
                     </li>
                     <li>
-                        <a href="#">Blog</a>
+                        <a href="blog.html">Blog</a>
                     </li>
                     <li>
                         <a href="#">Location</a>
@@ -104,17 +201,17 @@
                 <ul class="footer-icons">
                     <li>
                         <a href="#">
-                            <i class="fa fa-facebook-f"></i>
+                            <i class="fab fa-facebook-f"></i>
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <i class="fa fa-twitter"></i>
+                            <i class="fab fa-twitter"></i>
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <i class="fa fa-instagram"></i>
+                            <i class="fab fa-instagram"></i>
                         </a>
                     </li>
                 </ul>

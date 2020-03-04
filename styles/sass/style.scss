@@ -1,1 +1,9 @@
-@import 'setup';
+@import "partials/variables";
+@import "partials/setup";
+@import "partials/general";
+@import "partials/header";
+@import "partials/footer";
+@import "partials/home";
+@import "partials/blog";
+@import "partials/contact";
+@import "partials/media-queries";

@@ -1,4 +1,4 @@
-@media (min-width: 335px) {
+@media (min-width: 320px) {
     div.header-container {
         display: flex;
         flex-direction: column;
@@ -36,6 +36,17 @@
     .home-hero {
     height: 22vh;
     width: 100%;
+}
+
+.home-section-header-1 {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.about-container {
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 footer {

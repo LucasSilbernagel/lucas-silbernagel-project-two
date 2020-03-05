@@ -1,0 +1,192 @@
+.home-section-header-1,
+.home p {
+    color: $medium-color;
+}
+
+.about {
+    background: $light-color;
+    height: 105vh;
+    padding-top: 20px;
+}
+
+.about p,
+.features p {
+    color: $medium-color;
+    line-height: 1.5;
+}
+
+.girl-photo {
+    width: 60%;
+    border: 10px solid $white;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.circle-text {
+    width: 30%;
+    position: absolute;
+    left: 25px;
+    bottom: 45px;
+}
+
+.home-section-header-1 {
+    letter-spacing: 1px;
+}
+
+.great-place {
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.great-place:before {
+    content: '';
+    border-top: 1px solid $dark-color;
+    width: 20%;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.name-bold {
+    color: $dark-color;
+}
+
+.features {
+    padding-top: 20px;
+}
+
+.features ul {
+    padding-left: 20px;
+}
+
+.icon-header-container {
+    display: flex;
+}
+
+.icon-header-container i {
+    font-size: 2rem;
+}
+
+.feature-header {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.features p {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.features img {
+    display: block;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.testimonial,
+.explore {
+    background: url(../assets/pattern.png);
+}
+
+.testimonial {
+    height: 90vh;
+    padding-top: 50px;
+}
+
+.angle-left-desktop,
+.angle-right-desktop,
+.mobile-angles {
+    color: $medium-color;
+}
+
+.angle-left-desktop,
+.angle-right-desktop {
+    display: none;
+}
+
+.mobile-angles {
+    text-align: center;
+    font-size: 5rem;
+}
+
+.testimonial-box {
+    background: $white;
+    width: 95%;
+    height: 65vh;
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.home-section-header-2 {
+    font-size: 2rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.stars {
+    font-size: 2rem;
+}
+
+.stars {
+    color: $icon-accent;
+}
+
+.testimonial-quote {
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.testimonial-quote:before,
+.testimonial-quote:after {
+    font-size: 1.5rem;
+    vertical-align: -6px;
+    line-height: 1;
+}
+
+.testimonial-quote:before {
+    content: open-quote;
+    margin-right: 5px;
+}
+
+.testimonial-quote:after {
+    content: close-quote;
+    margin-left: 5px;
+}
+
+.testimonial p {
+    color: $medium-color;
+}
+
+.explore {
+    padding-top: 20px;
+}
+
+.explore .home-section-header-1 {
+    margin-top: 0;
+}
+
+.gallery-image-container {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery-image-container img {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.information {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.information img {
+    width: 100%;
+}

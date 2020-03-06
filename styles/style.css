@@ -378,9 +378,22 @@ footer button {
   margin-top: 10px;
 }
 
+.girl-photo-container:after {
+  content: "";
+  width: 30%;
+  height: 30%;
+  background: url("../assets/home-circle-text.png") no-repeat;
+  background-size: contain;
+  top: 29%;
+  left: 6%;
+  position: absolute;
+  display: inline-block;
+}
+
 .circle-text {
   width: 30%;
   position: absolute;
+  left: 0;
   left: 25px;
   top: 172px;
 }

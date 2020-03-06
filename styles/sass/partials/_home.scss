@@ -24,11 +24,25 @@
     border: 10px solid $white;
     margin-bottom: 50px;
     margin-top: 10px;
+    // position: relative;
+}
+
+.girl-photo-container:after {
+    content: "";
+    width: 30%;
+    height: 30%;
+    background: url("../assets/home-circle-text.png") no-repeat;
+    background-size: contain;
+    top: 29%;
+    left: 6%;
+    position: absolute;
+    display: inline-block;
 }
 
 .circle-text {
     width: 30%;
     position: absolute;
+    left: 0;
     left: 25px;
     top: 172px;
 }

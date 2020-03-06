@@ -10,8 +10,18 @@ nav {
     position: absolute;
 }
 
+.shopping-container {
+    position: relative;
+}
+
+.number {
+    position: absolute;
+    left: 20px;
+    bottom: -5px;
+}
+
 .number p{
-        position: absolute;
+        // position: absolute;
         background: $text-accent;
         width: 20px;
         height: 20px;

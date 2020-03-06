@@ -94,9 +94,9 @@
     padding-top: 50px;
 }
 
-.angle-left-desktop,
-.angle-right-desktop,
-.mobile-angles {
+.testimonial button {
+    border: none;
+    background: transparent;
     color: $medium-color;
 }
 
@@ -105,7 +105,9 @@
     display: none;
 }
 
-.mobile-angles {
+.mobile-angles,
+.angle-left-desktop,
+.angle-right-desktop {
     text-align: center;
     font-size: 5rem;
 }

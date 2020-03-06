@@ -284,6 +284,13 @@ nav {
   width: 100%;
 }
 
+.blog-hero {
+  background: url("../assets/blog-1.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
 footer,
 footer input,
 footer button {
@@ -428,9 +435,9 @@ footer button {
   padding-top: 50px;
 }
 
-.angle-left-desktop,
-.angle-right-desktop,
-.mobile-angles {
+.testimonial button {
+  border: none;
+  background: transparent;
   color: #999999;
 }
 
@@ -439,7 +446,9 @@ footer button {
   display: none;
 }
 
-.mobile-angles {
+.mobile-angles,
+.angle-left-desktop,
+.angle-right-desktop {
   text-align: center;
   font-size: 5rem;
 }
@@ -529,6 +538,118 @@ footer button {
 
 .information img {
   width: 100%;
+}
+
+article,
+.related {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.blog-post-header {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.blog-path {
+  color: #999999;
+  font-size: 1rem;
+  padding: 5px;
+}
+
+.user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.alex {
+  width: 100px;
+  margin: 10px;
+}
+
+.blog-sub-headers,
+.blog-sub-sub-headers {
+  margin: 0 auto;
+}
+
+.blog-sub-sub-headers {
+  color: #999999;
+}
+
+.post-header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #CCCCCC;
+  margin-bottom: 20px;
+}
+
+.blog-container p {
+  font-size: 1rem;
+}
+
+.main-p {
+  color: #999999;
+}
+
+.share {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.share-header {
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+.blog-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0;
+  width: 45%;
+  color: #CCCCCC;
+  font-size: 1.5rem;
+}
+
+.blog-twitter {
+  color: #00acee;
+}
+
+.blog-section-header {
+  font-size: 1.5rem;
+  border-bottom: 1px solid #CCCCCC;
+  padding-bottom: 15px;
+  margin-left: 10px;
+}
+
+.related ul {
+  padding-left: 0;
+}
+
+.related img {
+  width: 95%;
+  margin-bottom: 10px;
+}
+
+.related article {
+  margin-bottom: 20px;
+}
+
+.related-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.message {
+  background: #EDEDED;
+  width: 85%;
+  margin: 0 auto;
 }
 
 @media (min-width: 335px) {

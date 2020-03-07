@@ -321,7 +321,8 @@ nav {
 
 footer,
 footer input,
-footer button {
+footer button,
+.footer-bottom {
   background: #212121;
   color: #EDEDED;
 }
@@ -336,6 +337,16 @@ footer a {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+.footer-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 85%;
 }
 
 footer form {
@@ -361,8 +372,24 @@ footer input {
 footer input,
 footer button {
   border: 0;
-  border-bottom: solid 1px;
+  border-bottom: solid 1px #999999;
   height: 40px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #999999;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 20px;
+  margin-top: 40px;
+}
+
+.footer-icons {
+  max-width: 165px;
+}
+
+.footer p {
+  max-width: 180px;
 }
 
 .home-section-header-1,
@@ -1000,11 +1027,32 @@ article,
   .home-hero {
     height: 60vh;
   }
+  .footer-links {
+    max-width: 350px;
+  }
+  footer legend {
+    text-align: left;
+  }
+  footer form {
+    max-width: 580px;
+  }
 }
 
 @media (min-width: 700px) {
   .nav-header {
     left: 250px;
+  }
+  .footer-bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 95%;
+  }
+  .footer-icons {
+    margin: 0;
   }
 }
 
@@ -1063,6 +1111,12 @@ article,
   }
 }
 
+@media (min-width: 930px) {
+  footer {
+    height: 50vh;
+  }
+}
+
 @media (min-width: 1000px) {
   .nav-header {
     left: 450px;
@@ -1086,6 +1140,15 @@ article,
     left: 500px;
     top: 50px;
   }
+  .footer-container {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  footer form {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 @media (min-width: 1190px) {
@@ -1094,6 +1157,13 @@ article,
   }
   .home-hero {
     height: 90vh;
+  }
+  .footer-bottom,
+  .footer-container {
+    width: 80%;
+  }
+  .footer-container {
+    margin: 0 auto;
   }
 }
 

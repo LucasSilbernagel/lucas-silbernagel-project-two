@@ -137,11 +137,33 @@
     .home-hero {
         height: 60vh;
     }
+
+    .footer-links {
+        max-width: 350px;
+    }
+
+    footer legend {
+        text-align: left;
+    }
+
+    footer form {
+        max-width: 580px;
+    }
 }
 
 @media (min-width: 700px) {
     .nav-header {
         left: 250px;
+    }
+
+    .footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+    }
+
+    .footer-icons {
+        margin: 0;
     }
 }
 
@@ -186,6 +208,12 @@
     }
 }
 
+@media (min-width: 930px) {
+    footer {
+        height: 50vh;
+    }
+}
+
 @media (min-width: 1000px) {
     .nav-header {
         left: 450px;
@@ -212,6 +240,15 @@
         left: 500px;
         top: 50px;
     }
+
+    .footer-container {
+        justify-content: space-between;
+    }
+
+    footer form {
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 @media (min-width: 1190px) {
@@ -221,6 +258,15 @@
 
     .home-hero {
         height: 90vh;
+    }
+
+    .footer-bottom,
+    .footer-container {
+        width: 80%;
+    }
+
+    .footer-container {
+        margin: 0 auto;
     }
 }
 

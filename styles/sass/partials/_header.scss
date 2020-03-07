@@ -4,6 +4,8 @@ header a{
 
 nav {
     font-size: 1.2rem;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
 }
 
 .nav-header {
@@ -21,7 +23,6 @@ nav {
 }
 
 .number p{
-        // position: absolute;
         background: $text-accent;
         width: 20px;
         height: 20px;
@@ -42,6 +43,9 @@ nav {
 
 .home-hero {
     background: url("../assets/home-1.jpeg");
+    background-size: cover;
+    height: 30vh;
+    background-repeat: no-repeat;
 }
 
 .blog-hero {

@@ -36,49 +36,59 @@
     .home-hero {
     height: 22vh;
     width: 100%;
-}
+    }
 
-.home-section-header-1 {
-    font-size: 1.2rem;
-    text-align: center;
-}
+    .contact-hero {
+        width: 100%;
+    }
 
-.about-container {
-    text-align: center;
-    padding-left: 5px;
-    padding-right: 5px;
-}
+    .home-section-header-1 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
 
-footer {
-    height: 65vh;
-    padding-top: 40px;
-}
+    .about-container {
+        text-align: center;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 
-// .footer-links-1,
-// .footer-links-2
-footer ul {
-    line-height: 2;
-}
+    footer {
+        height: 65vh;
+        padding-top: 40px;
+    }
 
-footer form {
-    margin: 0 auto;
-    margin-top: 15px;
-}
+    footer ul {
+        line-height: 2;
+    }
 
-ul.wrapper {
-    padding-left: 0;
-}
+    footer form {
+        margin: 0 auto;
+        margin-top: 15px;
+    }
 
-footer p {
-    text-align: center;
-}
+    ul.wrapper {
+        padding-left: 0;
+    }
 
-.footer-icons {
-    font-size: 1.5rem;
-    width: 50%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 0;
-}
+    footer p {
+        text-align: center;
+    }
+
+    .footer-icons {
+        font-size: 1.5rem;
+        width: 50%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 0;
+    }
+
+    .contact-header {
+        text-align: center;
+    }
+
+    .contact-types i {
+        font-size: 2rem;
+    }
 }

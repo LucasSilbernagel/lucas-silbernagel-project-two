@@ -17,10 +17,13 @@
 
 .contact-container ul {
     padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .contact-container li {
     width: 70%;
+    max-width: 235px;
     margin: 0 auto;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -40,13 +43,17 @@
 .contact-form fieldset {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
+    padding: 0;
 }
 
 .contact-form input {
     width: 100%;
+    max-width: 270px;
     border: none;
     border-bottom: 1px solid $medium-color;
     margin-bottom: 20px;
+    margin-left: 10px;
     padding-bottom: 5px;
 }
 
@@ -66,7 +73,7 @@
     background: transparent;
     border-bottom: 1px solid $medium-color;
     margin-bottom: 50px;
-    margin-left: 80px;
+    margin-left: 20px;
     padding-bottom: 5px;
     font-size: 1rem;
 }

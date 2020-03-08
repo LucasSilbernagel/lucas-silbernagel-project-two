@@ -109,6 +109,28 @@
     .comment-submit {
         margin-left: 10px;
     }
+
+    .contact-hero {
+        margin-bottom: 100px;
+    }
+    
+    .contact-container {
+        margin: 0 auto;
+    }
+
+    .contact-container,
+    .contact p {
+        margin-left: 50px;
+    }
+
+    .contact-header {
+        text-align: left;
+    }
+
+    .contact-p {
+        max-width: 480px;
+        margin-left: 0;
+    }
 }
 
 @media (min-width: 520px) {
@@ -124,6 +146,18 @@
 
 .girl-photo {
     max-width: 306px;
+}
+
+.contact-types li {
+    border: none;
+}
+
+.contact-container {
+    height: 150vh;
+}
+
+.contact-submit {
+    margin-top: 40px;
 }
 }
 
@@ -253,6 +287,29 @@
     }
 }
 
+@media (min-width: 755px) {
+    .contact-container {
+        max-width: 70%;
+        margin: 0 auto;
+        height: 175vh;
+    }
+
+    .contact-types {
+        max-width: 1400px;
+        margin-top: 50px;
+    }
+
+    .contact-types li {
+        max-width: 320px;
+        padding-left: 10px;
+    }
+
+    .contact-types p {
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+}
+
 @media (min-width: 850px) {
     .header-container {
         height: 30vh;
@@ -307,6 +364,10 @@
         font-size: 3rem;
         margin-bottom: 40px;
     }
+
+    .contact-footer {
+        height: 50vh;
+    }
 }
 
 @media (min-width: 915px) {
@@ -321,6 +382,10 @@
     .information-container .home-section-header-1,
     .information-container .home-section-header-2 {
         text-align: left;
+    }
+
+    .contact-container {
+        height: 155vh;
     }
 }
 
@@ -537,6 +602,18 @@
         width: 35%;
     }
 
+    .contact-hero {
+        background-position-x: 0;
+        background-position-y: 0;
+        background-size: contain;
+        height: 60vh;
+        margin-bottom: 100px;
+    }
+
+    .contact-container {
+        height: 140vh;
+    }
+
     .footer-container {
         justify-content: space-between;
     }
@@ -605,5 +682,16 @@
 
     .features img {
         margin-top: 0;
+    }
+}
+
+@media (min-width: 1373px) {
+    li.address {
+        border-left: 1px solid $light-color;
+        border-right: 1px solid $light-color;
+    }
+
+    .contact-container {
+        height: 120vh;
     }
 }

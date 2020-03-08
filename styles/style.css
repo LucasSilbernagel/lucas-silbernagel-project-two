@@ -463,10 +463,28 @@ footer button {
 
 .features {
   padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .features ul {
   padding-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 653px;
+}
+
+.features li {
+  max-width: 315px;
 }
 
 .icon-header-container {
@@ -493,6 +511,7 @@ footer button {
   display: block;
   margin-top: 30px;
   width: 100%;
+  max-width: 645px;
 }
 
 .testimonial,
@@ -526,6 +545,7 @@ footer button {
 .testimonial-box {
   background: #FFFFFF;
   width: 95%;
+  max-width: 750px;
   height: 65vh;
   margin: 0 auto;
   padding-top: 10px;
@@ -576,6 +596,7 @@ footer button {
 
 .explore {
   padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 .explore .home-section-header-1 {
@@ -589,6 +610,7 @@ footer button {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  max-width: 970px;
 }
 
 .gallery-image-container img {
@@ -604,6 +626,39 @@ footer button {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   text-align: center;
+  height: 110vh;
+}
+
+.information-container {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 auto;
+}
+
+.information .home-section-header-2 {
+  margin-bottom: 50px;
+}
+
+.information p {
+  color: #999999;
+  max-width: 315px;
+}
+
+.Honolulu {
+  font-size: 1.5rem;
+}
+
+.Honolulu strong {
+  color: #000000;
+}
+
+.information-email strong {
+  color: #000000;
+}
+
+.information .phone {
+  font-size: 1.5rem;
+  color: #000000;
 }
 
 .information img {
@@ -972,6 +1027,9 @@ article,
   .girl-photo-container:after {
     top: 35%;
   }
+  .information {
+    height: 130vh;
+  }
 }
 
 @media (min-width: 520px) {
@@ -1050,6 +1108,7 @@ article,
   }
   .about {
     padding-top: 50px;
+    height: 140vh;
   }
   .girl-photo-container {
     margin-top: 40px;
@@ -1058,6 +1117,14 @@ article,
     top: 40%;
     max-width: 160px;
     left: 3%;
+  }
+  .testimonial-box {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .information img {
+    max-width: 580px;
   }
   .footer-links {
     max-width: 350px;
@@ -1167,6 +1234,23 @@ article,
     top: 70%;
     left: 0;
   }
+  .explore .home-section-header-2 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 915px) {
+  .information {
+    height: 90vh;
+  }
+  .information-container {
+    text-align: left;
+  }
+  .information-container .home-section-header-1,
+  .information-container .home-section-header-2 {
+    text-align: left;
+  }
 }
 
 @media (min-width: 930px) {
@@ -1210,6 +1294,42 @@ article,
     margin-left: 50px;
     margin-right: 0;
   }
+  .features img {
+    width: 30%;
+  }
+  .testimonial-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .mobile-angles {
+    display: none;
+  }
+  .angle-left-desktop,
+  .angle-right-desktop {
+    display: inline-block;
+  }
+  .explore {
+    padding-bottom: 100px;
+  }
+  .gallery-image-container {
+    margin: 0 auto;
+  }
+  .information-container {
+    text-align: left;
+    max-width: 410px;
+    padding-left: 10px;
+    padding-top: 50px;
+  }
+  .information-container .home-section-header-1,
+  .information-container .home-section-header-2 {
+    text-align: left;
+  }
+  .information-container .home-section-header-2 {
+    font-size: 3rem;
+  }
 }
 
 @media (min-width: 1100px) {
@@ -1228,6 +1348,12 @@ article,
   .nav-header {
     left: 500px;
     top: 50px;
+  }
+  .features ul {
+    margin-top: 100px;
+  }
+  .features img {
+    width: 35%;
   }
   .footer-container {
     -webkit-box-pack: justify;
@@ -1253,6 +1379,10 @@ article,
   .girl-photo-container:after {
     left: -60px;
   }
+  .information img {
+    max-width: 800px;
+    height: 100%;
+  }
   .footer-bottom,
   .footer-container {
     width: 80%;
@@ -1265,5 +1395,23 @@ article,
 @media (min-width: 1280px) {
   .nav-header {
     left: 650px;
+  }
+  .features ul {
+    margin-left: 150px;
+  }
+}
+
+@media (min-width: 1298px) {
+  .features {
+    padding-top: 0;
+  }
+  .features ul {
+    height: 50vh;
+  }
+  .features li {
+    height: 160px;
+  }
+  .features img {
+    margin-top: 0;
   }
 }

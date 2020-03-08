@@ -1,3 +1,14 @@
+.blog-main {
+    background: $light-color;
+}
+
+.blog-container {
+    max-width: 950px;
+    background: $white;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
 article,
 .related {
     width: 95%;
@@ -7,12 +18,15 @@ article,
 .blog-post-header {
     text-align: center;
     font-size: 1.8rem;
+    max-width: 498px;
+    margin: 0 auto;
 }
 
 .blog-path {
     color: $medium-color;
     font-size: 1rem;
     padding: 5px;
+    text-align: center;
 }
 
 .user {
@@ -21,8 +35,9 @@ article,
 }
 
 .alex {
-    width: 100px;
+    width: 70px;
     margin: 10px;
+    border-radius: 50%;
 }
 
 .blog-sub-headers,
@@ -31,13 +46,14 @@ article,
 }
 
 .blog-sub-sub-headers {
-    color: $medium-color;
+    color: $medium-light-color;
+    margin-top: 5px;
 }
 
 .post-header {
     padding-bottom: 20px;
-    border-bottom: 1px solid $medium-light-color;
-    margin-bottom: 20px;
+    border-bottom: 1px solid $light-color;
+    margin-bottom: 40px;
 }
 
 .blog-container p {
@@ -50,6 +66,7 @@ article,
 
 .share {
     display: flex;
+    max-width: 375px;
 }
 
 .share-header {
@@ -84,10 +101,14 @@ article,
 .related img {
     width: 95%;
     margin-bottom: 10px;
+    max-width: 288px;
 }
 
 .related article {
     margin-bottom: 20px;
+    border-bottom: 1px solid $light-color;
+    padding-bottom: 10px;
+    max-width: 288px;
 }
 
 .related-title {
@@ -140,15 +161,22 @@ article,
     text-align: center;
 }
 
+.leave-comment fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .leave-comment input,
 .leave-comment textarea {
     border: 0;
-    border-bottom: 1px solid $medium-color;
+    border-bottom: 1px solid $medium-light-color;
     width: 80%;
 }
 
 .leave-comment input {
     margin-bottom: 25px;
+    max-width: 280px;
 }
 
 .leave-comment textarea {

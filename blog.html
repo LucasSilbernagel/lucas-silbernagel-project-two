@@ -76,7 +76,7 @@
                                 <h5 class="blog-sub-sub-headers">Admin</h5>
                             </div>
                         </div>
-                        <ul>
+                        <ul class="blog-headers-container">
                             <li>
                                 <h4 class="blog-sub-headers">Date</h4>
                                 <h5 class="blog-sub-sub-headers">June 19th, 2020</h5>
@@ -181,7 +181,7 @@
                     </div>
                 </section>
                 <section class="leave-comment">
-                    <h6 class="blog-section-header">Leave A Comment</h6>
+                    <h6 class="blog-section-header comment-header">Leave A Comment</h6>
                     <form action="#" id="comment-form">
                         <fieldset>
                             <label for="name" class="sr-only">Name</label>
@@ -193,8 +193,10 @@
                         </fieldset>
                     </form>
                     <label for="comment-box" class="sr-only">Comment Box</label>
-                    <textarea form="comment-form" name="comment-box" id="comment-box" placeholder="Here goes your comment" required maxlength="200"></textarea>
-                    <button type="submit" form="comment-form" class="comment-submit" name="submit">send message</button>
+                    <textarea form="comment-form" name="comment-box" id="comment-box" placeholder="Here goes your comment" required maxlength="200" class="comment-box"></textarea>
+                    <div class="comment-submit-container">
+                        <button type="submit" form="comment-form" class="comment-submit" name="submit">send message</button>
+                    </div>
                 </section>
             </section>
         </div>

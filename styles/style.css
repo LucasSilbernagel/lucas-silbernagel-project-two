@@ -309,6 +309,9 @@ nav {
 
 .blog-hero {
   background: url("../assets/blog-1.jpeg");
+  background-size: cover;
+  height: 30vh;
+  background-repeat: no-repeat;
 }
 
 .contact-hero {
@@ -847,7 +850,6 @@ article,
 .contact-header {
   font-size: 2rem;
   margin-bottom: 0;
-  margin-top: 20px;
 }
 
 .contact-container p {
@@ -1103,7 +1105,8 @@ article,
     left: 170px;
     top: 100px;
   }
-  .home-hero {
+  .home-hero,
+  .blog-hero {
     height: 60vh;
   }
   .about {

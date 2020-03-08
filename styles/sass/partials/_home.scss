@@ -19,12 +19,17 @@
     position: relative;
 }
 
+.about-article-content {
+    max-width: 375px;
+    margin: 0 auto;
+    text-align: left;
+}
+
 .girl-photo {
     width: 60%;
     border: 10px solid $white;
     margin-bottom: 50px;
     margin-top: 10px;
-    // position: relative;
 }
 
 .girl-photo-container:after {
@@ -37,14 +42,6 @@
     left: 6%;
     position: absolute;
     display: inline-block;
-}
-
-.circle-text {
-    width: 30%;
-    position: absolute;
-    left: 0;
-    left: 25px;
-    top: 172px;
 }
 
 .home-section-header-1 {

@@ -755,7 +755,8 @@ article,
   margin-right: 20px;
 }
 
-.blog-icons {
+.blog-icons,
+.blog-icons a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

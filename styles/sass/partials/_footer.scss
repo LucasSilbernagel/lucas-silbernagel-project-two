@@ -46,6 +46,16 @@ footer button {
     height: 40px;
 }
 
+footer button {
+    margin: 0;
+}
+
+footer button::before,
+footer button::after {
+    content: '';
+    flex: 1 0 auto;
+}
+
 footer button:hover {
     cursor: pointer;
 }

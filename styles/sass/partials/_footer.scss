@@ -46,6 +46,10 @@ footer button {
     height: 40px;
 }
 
+footer button:hover {
+    cursor: pointer;
+}
+
 .footer-bottom {
     border-top: 1px solid $medium-color;
     width: 100%;

@@ -261,6 +261,13 @@ header a {
   color: #000000;
 }
 
+header a:hover,
+.header-buttons:hover,
+.shopping-container:hover {
+  color: #999999;
+  cursor: pointer;
+}
+
 .header-buttons,
 .shopping-container {
   background: transparent;
@@ -383,6 +390,10 @@ footer button {
   border: 0;
   border-bottom: solid 1px #999999;
   height: 40px;
+}
+
+footer button:hover {
+  cursor: pointer;
 }
 
 .footer-bottom {
@@ -549,6 +560,14 @@ footer button {
 .angle-right-desktop {
   text-align: center;
   font-size: 5rem;
+}
+
+.angle-left-desktop:hover,
+.angle-right-desktop:hover,
+.angle-left-mobile:hover,
+.angle-right-mobile:hover {
+  color: #000000;
+  cursor: pointer;
 }
 
 .testimonial-box {
@@ -887,6 +906,11 @@ article,
   width: 170px;
 }
 
+.comment-submit:hover {
+  background: #5f7310;
+  cursor: pointer;
+}
+
 .contact-header {
   font-size: 2rem;
   margin-bottom: 0;
@@ -971,6 +995,11 @@ article,
   margin-left: 20px;
   padding-bottom: 5px;
   font-size: 1rem;
+}
+
+.contact-submit:hover {
+  background: #EDEDED;
+  cursor: pointer;
 }
 
 .contact-footer-image {

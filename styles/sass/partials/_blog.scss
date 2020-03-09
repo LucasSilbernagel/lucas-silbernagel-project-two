@@ -197,3 +197,8 @@ article,
     width: 170px;
 }
 
+.comment-submit:hover {
+    background: darken($button-accent, 10);
+    cursor: pointer;
+}
+

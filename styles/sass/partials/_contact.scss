@@ -78,6 +78,11 @@
     font-size: 1rem;
 }
 
+.contact-submit:hover {
+    background: $light-color;
+    cursor: pointer;
+}
+
 .contact-footer-image {
     background: url("../assets/contact-2.jpeg");
     background-size: cover;

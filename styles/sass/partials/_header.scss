@@ -1,5 +1,12 @@
-header a{
+header a {
     color: $dark-color;
+}
+
+header a:hover,
+.header-buttons:hover,
+.shopping-container:hover {
+    color: $medium-color;
+    cursor: pointer;
 }
 
 .header-buttons,

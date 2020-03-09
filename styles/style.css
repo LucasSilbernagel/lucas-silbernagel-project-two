@@ -1164,19 +1164,19 @@ article,
   .header-container {
     padding-bottom: 20px;
   }
-  nav {
+  nav,
+  nav ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+  nav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
   nav ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -1324,8 +1324,8 @@ article,
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
-  .nav-ul-1 {
-    max-width: 280px;
+  .nav-ul-1,
+  .nav-ul-2 {
     margin: 0;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -1335,17 +1335,12 @@ article,
         -ms-flex-align: start;
             align-items: flex-start;
   }
+  .nav-ul-1 {
+    max-width: 280px;
+  }
   .nav-ul-2 {
-    margin: 0;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
     width: 100%;
     max-width: 180px;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
   }
   .nav-icons {
     -webkit-box-orient: horizontal;
@@ -1382,9 +1377,7 @@ article,
   .information {
     height: 90vh;
   }
-  .information-container {
-    text-align: left;
-  }
+  .information-container,
   .information-container .home-section-header-1,
   .information-container .home-section-header-2 {
     text-align: left;
@@ -1400,7 +1393,8 @@ article,
     margin-top: 30px;
     margin-bottom: 50px;
   }
-  .post-header {
+  .post-header,
+  .blog-headers-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1409,12 +1403,6 @@ article,
             justify-content: space-between;
   }
   .blog-headers-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
     width: 50%;
     padding-top: 50px;
     margin-right: 30px;

@@ -2,6 +2,12 @@ header a{
     color: $dark-color;
 }
 
+.header-buttons,
+.shopping-container {
+    background: transparent;
+    border: none;
+}
+
 nav {
     font-size: 1.2rem;
     text-transform: uppercase;

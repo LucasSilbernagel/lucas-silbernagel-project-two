@@ -343,6 +343,12 @@ footer button,
   color: #EDEDED;
 }
 
+footer.home-footer,
+footer.blog-footer,
+footer.contact-footer {
+  height: 100%;
+}
+
 footer a {
   color: #EDEDED;
 }
@@ -379,7 +385,7 @@ footer legend {
 }
 
 footer input {
-  width: 70%;
+  width: 90%;
 }
 
 footer input,

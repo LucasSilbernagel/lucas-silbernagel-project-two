@@ -27,7 +27,6 @@ footer form {
 
 footer fieldset {
     border: 0;
-    display: flex;
 }
 
 footer legend {
@@ -44,6 +43,7 @@ footer button {
     border: 0;
     border-bottom: solid 1px $medium-color;
     height: 40px;
+    float: left;
 }
 
 footer button {

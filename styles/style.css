@@ -667,8 +667,10 @@ footer button:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-align: center;
   height: 110vh;
 }
@@ -1174,6 +1176,9 @@ article,
   .contact-submit {
     margin-top: 40px;
   }
+  .information {
+    height: 150vh;
+  }
 }
 
 @media (min-width: 580px) {
@@ -1392,6 +1397,10 @@ article,
 @media (min-width: 915px) {
   .information {
     height: 90vh;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
   .information-container,
   .information-container .home-section-header-1,

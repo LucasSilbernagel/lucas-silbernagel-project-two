@@ -159,6 +159,10 @@
     .contact-submit {
         margin-top: 40px;
     }
+
+    .information {
+        height: 150vh;
+    }
 }
 
 @media (min-width: 580px) {
@@ -377,6 +381,7 @@
 @media (min-width: 915px) {
     .information {
         height: 90vh;
+        flex-direction: row;
     }
 
     .information-container,

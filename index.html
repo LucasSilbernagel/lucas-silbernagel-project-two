@@ -36,9 +36,16 @@
                 </nav>
                 <ul class="nav-icons">
                     <li class="hamburger">
-                        <button class="header-buttons" aria-label="menu">
-                            <i class="fas fa-bars"></i>
-                        </button>
+                        <label for="hamburger-toggle">
+                            <i class="fas fa-bars" aria-hidden></i>
+                            <span class="sr-only">Navigation Menu</span>
+                        </label>
+                        <input type="checkbox" id="hamburger-toggle" name="hamburger-toggle" class="hamburger-toggle">
+                        <ul class="top-nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
                     </li>
                     <li>
                         <button class="header-buttons" aria-label="search">

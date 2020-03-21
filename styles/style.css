@@ -281,31 +281,36 @@ nav {
   font-display: swap;
 }
 
-.fa-bars {
-  cursor: pointer;
-}
-
-.fa-bars:hover {
-  color: #999999;
+.hamburger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .hamburger-toggle {
   visibility: hidden;
-  cursor: pointer;
 }
 
 .top-nav {
-  display: none;
+  opacity: 0;
+  visibility: hidden;
   position: absolute;
   background: #FFFFFF;
   padding-left: 0;
   z-index: 20;
   width: 120px;
+  top: 60px;
+  right: 0px;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
 }
 
 .top-nav li {
-  padding-bottom: 5px;
-  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .top-nav li:hover {
@@ -313,7 +318,6 @@ nav {
 }
 
 .top-nav a {
-  color: #F6AB09;
   margin-left: 5px;
   padding-right: 45px;
 }
@@ -323,7 +327,81 @@ nav {
 }
 
 #hamburger-toggle:checked ~ .top-nav {
+  opacity: 100%;
+  visibility: visible;
+}
+
+.hamburger-lines {
   display: block;
+  width: 40px;
+  height: 30px;
+  position: relative;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.hamburger-lines:hover {
+  cursor: pointer;
+}
+
+.hamburger-line {
+  width: 100%;
+  height: 5px;
+  position: absolute;
+  left: 0;
+  background: #000000;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.hamburger-line.line1 {
+  top: 0px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.hamburger-line.line2,
+.hamburger-line.line2b {
+  top: 50%;
+  border-radius: 8px;
+  background: #000000;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.hamburger-line.line3 {
+  bottom: 0px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.hamburger-toggle:checked + label .line1,
+.hamburger-toggle:checked + label .line3 {
+  opacity: 0%;
+}
+
+.hamburger-toggle:checked + label .line1 {
+  top: -6px;
+}
+
+.hamburger-toggle:checked + label .line3 {
+  bottom: -6px;
+}
+
+.hamburger-toggle:checked + label .middle {
+  height: 4px;
+  background: #000000;
+}
+
+.hamburger-toggle:checked + label .line2 {
+  -webkit-transform: rotate(40deg);
+          transform: rotate(40deg);
+  background: #000000;
+}
+
+.hamburger-toggle:checked + label .line2b {
+  -webkit-transform: rotate(-40deg);
+          transform: rotate(-40deg);
 }
 
 .nav-header {
@@ -1279,7 +1357,10 @@ article,
             align-items: flex-end;
     margin-right: 50px;
   }
-  .hamburger {
+  .hamburger,
+  .top-nav,
+  .top-nav li,
+  .hamburger-lines {
     display: none;
   }
   .nav-header {

@@ -1791,6 +1791,10 @@ article,
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
+  div.footer-links {
+    max-width: none;
+    width: 420px;
+  }
   footer form {
     margin-left: 0;
     margin-right: 0;

@@ -3,6 +3,10 @@
     color: $medium-color;
 }
 
+h2.home-section-header-1 {
+    letter-spacing: 8px;
+}
+
 .about {
     background: $light-color;
     height: 105vh;
@@ -132,17 +136,20 @@
 }
 
 .mobile-angles,
+.angle-left-mobile,
+.angle-right-mobile,
 .angle-left-desktop,
 .angle-right-desktop {
     text-align: center;
     font-size: 5rem;
+    color: $dark-color;
 }
 
 .angle-left-desktop:hover,
 .angle-right-desktop:hover,
 .angle-left-mobile:hover,
 .angle-right-mobile:hover {
-    color: $dark-color;
+    color: $medium-color;
     cursor: pointer;
 }
 

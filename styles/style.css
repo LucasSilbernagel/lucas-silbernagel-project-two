@@ -592,6 +592,10 @@ footer button:hover {
   color: #999999;
 }
 
+h2.home-section-header-1 {
+  letter-spacing: 8px;
+}
+
 .about {
   background: #EDEDED;
   height: 105vh;
@@ -731,17 +735,20 @@ footer button:hover {
 }
 
 .mobile-angles,
+.angle-left-mobile,
+.angle-right-mobile,
 .angle-left-desktop,
 .angle-right-desktop {
   text-align: center;
   font-size: 5rem;
+  color: #000000;
 }
 
 .angle-left-desktop:hover,
 .angle-right-desktop:hover,
 .angle-left-mobile:hover,
 .angle-right-mobile:hover {
-  color: #000000;
+  color: #999999;
   cursor: pointer;
 }
 

@@ -209,8 +209,10 @@
     display: flex;
     flex-wrap: wrap;
     max-width: 970px;
+    padding-left: 0;
 }
 
+.gallery-image-container li,
 .gallery-image-container img {
     max-width: 300px;
     margin: 0 auto;

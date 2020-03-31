@@ -240,6 +240,35 @@ html {
   margin: 0 auto;
 }
 
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+nav,
+.feature-header,
+.comment-submit,
+.contact-submit {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.nav-header,
+.great-place,
+.home-section-header-2,
+blockquote,
+.blog-post-header,
+.blog-sub-headers,
+.blog-section-header,
+.contact-header,
+.contact-type-header {
+  font-family: "Playfair Display", serif;
+}
+
+blockquote {
+  font-style: italic;
+}
+
 .home-section-header-1,
 .feature-header {
   text-transform: uppercase;
@@ -277,8 +306,6 @@ header a:hover,
 nav {
   font-size: 1.2rem;
   text-transform: uppercase;
-  font-family: 'Poppins', sans-serif;
-  font-display: swap;
 }
 
 .hamburger {
@@ -734,10 +761,6 @@ footer button:hover {
 }
 
 .testimonial-quote {
-  font-style: italic;
-  font-family: 'Playfair Display', serif;
-  font-display: swap;
-  font-weight: 400;
   line-height: 1.7;
 }
 

@@ -679,21 +679,23 @@ h2.home-section-header-1 {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  max-width: 653px;
+  max-width: 700px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .features li {
   max-width: 315px;
-}
-
-.icon-header-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.icon-header-container i {
-  font-size: 2rem;
+.features i {
+  font-size: 2.2rem;
+  padding-right: 20px;
+  padding-top: 5px;
 }
 
 .feature-header {
@@ -704,12 +706,14 @@ h2.home-section-header-1 {
 .features p {
   margin-top: 0;
   margin-bottom: 50px;
+  width: 260px;
 }
 
 .features img {
   display: block;
+  margin: 0 auto;
   margin-top: 30px;
-  width: 100%;
+  width: 80%;
   max-width: 645px;
 }
 
@@ -1344,7 +1348,6 @@ article,
     max-width: 510px;
   }
   .girl-photo-container:after {
-    top: 40%;
     max-width: 160px;
     left: 4%;
   }
@@ -1437,7 +1440,6 @@ article,
     margin-top: 40px;
   }
   .girl-photo-container:after {
-    top: 40%;
     max-width: 160px;
     left: 3%;
   }
@@ -1571,6 +1573,10 @@ article,
   .girl-photo-container:after {
     top: 70%;
     left: 0;
+  }
+  .features img {
+    margin-right: 0;
+    width: 45%;
   }
   .explore .home-section-header-2 {
     font-size: 3rem;
@@ -1718,9 +1724,6 @@ article,
     margin-left: 50px;
     margin-right: 0;
   }
-  .features img {
-    width: 30%;
-  }
   .testimonial-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1780,8 +1783,11 @@ article,
   .features ul {
     margin-top: 100px;
   }
+  .features p {
+    width: 265px;
+  }
   .features img {
-    width: 35%;
+    width: 50%;
   }
   .contact-hero {
     background-position-x: 0;
@@ -1840,7 +1846,10 @@ article,
     right: 400px;
   }
   .features ul {
-    margin-left: 150px;
+    margin-left: 50px;
+  }
+  .features img {
+    width: 30%;
   }
   .contact-container {
     height: 140vh;
@@ -1858,12 +1867,14 @@ article,
   }
   .features ul {
     height: 50vh;
+    margin-left: 50px;
   }
   .features li {
     height: 160px;
   }
   .features img {
     margin-top: 0;
+    width: 40%;
   }
 }
 

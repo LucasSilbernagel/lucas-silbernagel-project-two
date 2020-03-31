@@ -143,7 +143,6 @@
     }
     
     .girl-photo-container:after {
-        top: 40%;
         max-width: 160px;
         left: 4%;
     }
@@ -236,7 +235,6 @@
     }
 
     .girl-photo-container:after {
-        top: 40%;
         max-width: 160px;
         left: 3%;
     }
@@ -373,6 +371,11 @@
     .girl-photo-container:after {
         top: 70%;
         left: 0;
+    }
+
+    .features img {
+        margin-right: 0;
+        width: 45%;
     }
 
     .explore .home-section-header-2 {
@@ -536,10 +539,6 @@
         margin-right: 0;
     }
 
-    .features img {
-        width: 30%;
-    }
-
     .testimonial-container {
         display: flex;
         max-width: 1000px;
@@ -610,8 +609,12 @@
         margin-top: 100px;
     }
 
+    .features p {
+    width: 265px;
+    }
+
     .features img {
-        width: 35%;
+        width: 50%;
     }
 
     .contact-hero {
@@ -680,7 +683,11 @@
     }
 
     .features ul {
-        margin-left: 150px;
+        margin-left: 50px;
+    }
+
+    .features img {
+        width: 30%;
     }
 
     .contact-container {
@@ -701,6 +708,7 @@
 
     .features ul {
         height: 50vh;
+        margin-left: 50px;
     }
 
     .features li {
@@ -709,6 +717,7 @@
 
     .features img {
         margin-top: 0;
+        width: 40%;
     }
 }
 

@@ -602,7 +602,7 @@
     }
 
     .nav-header {
-        left: 500px;
+        left: 480px;
         top: 50px;
     }
 
@@ -638,7 +638,7 @@
 
 @media (min-width: 1190px) {
     .nav-header {
-        left: 560px;
+        left: 520px;
     }
 
     .home-hero,
@@ -685,6 +685,11 @@
 }
 
 @media (min-width: 1298px) {
+    .nav-icons {
+        right: 40px;
+        width: 120px;
+    }
+
     .features {
         padding-top: 0;
     }

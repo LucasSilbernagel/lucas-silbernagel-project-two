@@ -536,6 +536,15 @@ footer legend {
 
 footer input {
   width: 80%;
+  padding-left: 5px;
+}
+
+footer input:focus,
+footer input:active,
+footer button:focus,
+footer button:active {
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
 }
 
 footer input,
@@ -1047,6 +1056,14 @@ article,
   border: 0;
   border-bottom: 1px solid #CCCCCC;
   width: 80%;
+  padding-left: 5px;
+}
+
+.leave-comment input:focus,
+.leave-comment input:active,
+.leave-comment textarea:focus,
+.leave-comment textarea:active {
+  border: 1px solid #CCCCCC;
 }
 
 .leave-comment input {
@@ -1131,13 +1148,18 @@ article,
   padding: 0;
 }
 
-.contact-form input {
-  width: 100%;
-  max-width: 270px;
+.contact-form input,
+.comment-box {
   border: none;
   border-bottom: 1px solid #999999;
   margin-bottom: 20px;
   margin-left: 10px;
+  padding-left: 5px;
+}
+
+.contact-form input {
+  width: 100%;
+  max-width: 270px;
   padding-bottom: 5px;
 }
 
@@ -1145,10 +1167,13 @@ article,
   resize: none;
   width: 90%;
   height: 100px;
-  margin-left: 10px;
-  margin-bottom: 20px;
-  border: none;
-  border-bottom: 1px solid #999999;
+}
+
+.contact-form input:focus,
+.contact-form input:active,
+.comment-box:focus,
+.comment-box:active {
+  border: 1px solid #999999;
 }
 
 .contact-submit {

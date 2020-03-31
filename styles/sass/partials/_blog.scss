@@ -173,6 +173,14 @@ article,
     border: 0;
     border-bottom: 1px solid $medium-light-color;
     width: 80%;
+    padding-left: 5px;
+}
+
+.leave-comment input:focus,
+.leave-comment input:active,
+.leave-comment textarea:focus,
+.leave-comment textarea:active {
+    border: 1px solid $medium-light-color;
 }
 
 .leave-comment input {

@@ -231,7 +231,7 @@ h2.home-section-header-1 {
 
 .gallery-image-container li:hover,
 .gallery-image-container img:hover {
-    scale: 1.1;
+    transform: scale(1.1);
     cursor: pointer;
 }
 

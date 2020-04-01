@@ -847,7 +847,8 @@ h2.home-section-header-1 {
 
 .gallery-image-container li:hover,
 .gallery-image-container img:hover {
-  scale: 1.1;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
   cursor: pointer;
 }
 
@@ -996,12 +997,13 @@ article,
 
 .blog-icons {
   margin-top: 0;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
 }
 
 .blog-icons i:hover {
-  scale: 1.5;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
 .blog-twitter {
@@ -1037,7 +1039,8 @@ article,
 .related article:hover {
   -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3), inset 0 -3px 3px rgba(0, 0, 0, 0.1);
           box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3), inset 0 -3px 3px rgba(0, 0, 0, 0.1);
-  scale: 1.1;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
   cursor: pointer;
 }
 
@@ -1091,15 +1094,9 @@ article,
   text-align: center;
 }
 
-.leave-comment fieldset {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+.leave-comment input {
+  float: left;
+  margin-left: 10px;
 }
 
 .leave-comment input,
@@ -1199,11 +1196,6 @@ article,
 }
 
 .contact-form fieldset {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   width: 100%;
   padding: 0;
 }
@@ -1221,6 +1213,7 @@ article,
   width: 100%;
   max-width: 270px;
   padding-bottom: 5px;
+  float: left;
 }
 
 .comment-box {

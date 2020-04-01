@@ -521,6 +521,10 @@ footer a {
   width: 85%;
 }
 
+.footer-links a:hover {
+  color: #999999;
+}
+
 footer form {
   width: 100%;
 }
@@ -569,6 +573,7 @@ footer button::after {
 
 footer button:hover {
   cursor: pointer;
+  color: #999999;
 }
 
 .footer-bottom {
@@ -581,6 +586,10 @@ footer button:hover {
 
 .footer-icons {
   max-width: 165px;
+}
+
+.footer-icons a:hover {
+  color: #999999;
 }
 
 .footer p {
@@ -830,6 +839,14 @@ h2.home-section-header-1 {
   max-width: 300px;
   margin: 0 auto;
   margin-bottom: 15px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.gallery-image-container li:hover,
+.gallery-image-container img:hover {
+  scale: 1.1;
+  cursor: pointer;
 }
 
 .information {

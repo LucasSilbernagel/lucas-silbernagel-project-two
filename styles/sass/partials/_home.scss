@@ -226,6 +226,13 @@ h2.home-section-header-1 {
     max-width: 300px;
     margin: 0 auto;
     margin-bottom: 15px;
+    transition: all 0.5s;
+}
+
+.gallery-image-container li:hover,
+.gallery-image-container img:hover {
+    scale: 1.1;
+    cursor: pointer;
 }
 
 .information {

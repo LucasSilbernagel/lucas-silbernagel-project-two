@@ -84,6 +84,15 @@ article,
     font-size: 1.5rem;
 }
 
+.blog-icons {
+    margin-top: 0;
+    transition: all 0.5s;
+}
+
+.blog-icons i:hover {
+    scale: 1.5;
+}
+
 .blog-twitter {
     color: #00acee;
 }
@@ -110,6 +119,13 @@ article,
     border-bottom: 1px solid $light-color;
     padding-bottom: 10px;
     max-width: 288px;
+    transition: all 0.7s;
+}
+
+.related article:hover {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.3), inset 0 -3px 3px rgba(0,0,0,0.1);
+    scale: 1.1;
+    cursor: pointer;
 }
 
 .related-title {
@@ -192,6 +208,11 @@ article,
     resize: none;
     height: 100px;
     color: $medium-color;
+}
+
+.leave-comment input:hover,
+.leave-comment textarea:hover {
+    border-bottom: 1px solid $dark-color;
 }
 
 .comment-submit {

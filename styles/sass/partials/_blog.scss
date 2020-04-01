@@ -86,11 +86,11 @@ article,
 
 .blog-icons {
     margin-top: 0;
-    transition: all 0.5s;
+    transition: all 0.7s;
 }
 
 .blog-icons i:hover {
-    scale: 1.5;
+    transform: scale(1.5);
 }
 
 .blog-twitter {
@@ -124,7 +124,7 @@ article,
 
 .related article:hover {
     box-shadow: 0 3px 6px rgba(0,0,0,0.3), inset 0 -3px 3px rgba(0,0,0,0.1);
-    scale: 1.1;
+    transform: scale(1.1);
     cursor: pointer;
 }
 
@@ -178,10 +178,9 @@ article,
     text-align: center;
 }
 
-.leave-comment fieldset {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+.leave-comment input {
+    float: left;
+    margin-left: 10px;
 }
 
 .leave-comment input,

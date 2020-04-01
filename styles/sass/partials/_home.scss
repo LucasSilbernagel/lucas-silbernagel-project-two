@@ -3,6 +3,10 @@
     color: $medium-color;
 }
 
+h2.home-section-header-1 {
+    letter-spacing: 8px;
+}
+
 .about {
     background: $light-color;
     height: 105vh;
@@ -78,19 +82,19 @@
     padding-left: 20px;
     display: flex;
     flex-wrap: wrap;
-    max-width: 653px;
+    max-width: 700px;
+    justify-content: space-between;
 }
 
 .features li {
     max-width: 315px;
-}
-
-.icon-header-container {
     display: flex;
 }
 
-.icon-header-container i {
-    font-size: 2rem;
+.features i {
+    font-size: 2.2rem;
+    padding-right: 20px;
+    padding-top: 5px;
 }
 
 .feature-header {
@@ -101,12 +105,14 @@
 .features p {
     margin-top: 0;
     margin-bottom: 50px;
+    width: 260px;
 }
 
 .features img {
     display: block;
+    margin: 0 auto;
     margin-top: 30px;
-    width: 100%;
+    width: 80%;
     max-width: 645px;
 }
 
@@ -132,17 +138,20 @@
 }
 
 .mobile-angles,
+.angle-left-mobile,
+.angle-right-mobile,
 .angle-left-desktop,
 .angle-right-desktop {
     text-align: center;
     font-size: 5rem;
+    color: $dark-color;
 }
 
 .angle-left-desktop:hover,
 .angle-right-desktop:hover,
 .angle-left-mobile:hover,
 .angle-right-mobile:hover {
-    color: $dark-color;
+    color: $medium-color;
     cursor: pointer;
 }
 
@@ -171,10 +180,6 @@
 }
 
 .testimonial-quote {
-    font-style: italic;
-    font-family: 'Playfair Display', serif;
-    font-display: swap;
-    font-weight: 400;
     line-height: 1.7;
 }
 
@@ -213,12 +218,21 @@
     display: flex;
     flex-wrap: wrap;
     max-width: 970px;
+    padding-left: 0;
 }
 
+.gallery-image-container li,
 .gallery-image-container img {
     max-width: 300px;
     margin: 0 auto;
     margin-bottom: 15px;
+    transition: all 0.5s;
+}
+
+.gallery-image-container li:hover,
+.gallery-image-container img:hover {
+    scale: 1.1;
+    cursor: pointer;
 }
 
 .information {
@@ -240,7 +254,8 @@
 
 .information p {
     color: $medium-color;
-    max-width: 315px;
+    // max-width: 315px;
+    max-width: 350px;
 }
 
 .Honolulu {

@@ -143,7 +143,6 @@
     }
     
     .girl-photo-container:after {
-        top: 40%;
         max-width: 160px;
         left: 4%;
     }
@@ -157,7 +156,7 @@
     }
 
     .contact-container {
-        height: 150vh;
+        height: 190vh;
     }
 
     .contact-submit {
@@ -236,7 +235,6 @@
     }
 
     .girl-photo-container:after {
-        top: 40%;
         max-width: 160px;
         left: 3%;
     }
@@ -375,9 +373,18 @@
         left: 0;
     }
 
+    .features img {
+        margin-right: 0;
+        width: 45%;
+    }
+
     .explore .home-section-header-2 {
         font-size: 3rem;
         margin-bottom: 40px;
+    }
+
+    .blog-post-header {
+        max-width: 520px;
     }
 
     .contact-footer {
@@ -398,7 +405,7 @@
     }
 
     .contact-container {
-        height: 155vh;
+        height: 170vh;
     }
 }
 
@@ -409,6 +416,11 @@
         margin-bottom: 50px;
     }
 
+    .alex {
+        width: 70px;
+        height: 70px;
+    }
+
     .post-header,
     .blog-headers-container {
         display: flex;
@@ -416,7 +428,8 @@
     }
 
     .blog-headers-container {
-        width: 50%;
+        // width: 50%;
+        width: 60%;
         padding-top: 50px;
         margin-right: 30px;
     }
@@ -536,10 +549,6 @@
         margin-right: 0;
     }
 
-    .features img {
-        width: 30%;
-    }
-
     .testimonial-container {
         display: flex;
         max-width: 1000px;
@@ -602,7 +611,7 @@
     }
 
     .nav-header {
-        left: 500px;
+        left: 480px;
         top: 50px;
     }
 
@@ -610,8 +619,12 @@
         margin-top: 100px;
     }
 
+    .features p {
+    width: 265px;
+    }
+
     .features img {
-        width: 35%;
+        width: 50%;
     }
 
     .contact-hero {
@@ -626,8 +639,18 @@
         height: 140vh;
     }
 
+    .contact-container ul {
+        max-width: none;
+        width: 100%;
+    }
+
     .footer-container {
         justify-content: space-between;
+    }
+
+    div.footer-links {
+        max-width: none;
+        width: 420px;
     }
 
     footer form {
@@ -638,7 +661,7 @@
 
 @media (min-width: 1190px) {
     .nav-header {
-        left: 560px;
+        left: 520px;
     }
 
     .home-hero,
@@ -675,7 +698,11 @@
     }
 
     .features ul {
-        margin-left: 150px;
+        margin-left: 50px;
+    }
+
+    .features img {
+        width: 30%;
     }
 
     .contact-container {
@@ -685,12 +712,18 @@
 }
 
 @media (min-width: 1298px) {
+    .nav-icons {
+        right: 40px;
+        width: 120px;
+    }
+
     .features {
         padding-top: 0;
     }
 
     .features ul {
         height: 50vh;
+        margin-left: 50px;
     }
 
     .features li {
@@ -699,14 +732,20 @@
 
     .features img {
         margin-top: 0;
+        width: 40%;
     }
-}
 
-@media (min-width: 1373px) {
     li.address {
         border-left: 1px solid $light-color;
         border-right: 1px solid $light-color;
     }
+}
+
+@media (min-width: 1373px) {
+    // li.address {
+    //     border-left: 1px solid $light-color;
+    //     border-right: 1px solid $light-color;
+    // }
 
     .contact-container {
         height: 120vh;

@@ -3,6 +3,35 @@
     margin: 0 auto;
 }
 
+body {
+    font-family: $content-text;
+    font-weight: 400;
+}
+
+nav,
+.feature-header,
+.comment-submit,
+.contact-submit {
+    font-family: $content-text;
+    font-weight: 600;
+}
+
+.nav-header,
+.great-place,
+.home-section-header-2,
+blockquote,
+.blog-post-header,
+.blog-sub-headers,
+.blog-section-header,
+.contact-header,
+.contact-type-header {
+    font-family: $header-text;
+}
+
+blockquote {
+    font-style: italic;
+}
+
 .home-section-header-1,
 .feature-header {
     text-transform: uppercase;

@@ -156,7 +156,7 @@
     }
 
     .contact-container {
-        height: 150vh;
+        height: 190vh;
     }
 
     .contact-submit {
@@ -405,7 +405,7 @@
     }
 
     .contact-container {
-        height: 155vh;
+        height: 170vh;
     }
 }
 
@@ -639,6 +639,11 @@
         height: 140vh;
     }
 
+    .contact-container ul {
+        max-width: none;
+        width: 100%;
+    }
+
     .footer-container {
         justify-content: space-between;
     }
@@ -729,13 +734,18 @@
         margin-top: 0;
         width: 40%;
     }
-}
 
-@media (min-width: 1373px) {
     li.address {
         border-left: 1px solid $light-color;
         border-right: 1px solid $light-color;
     }
+}
+
+@media (min-width: 1373px) {
+    // li.address {
+    //     border-left: 1px solid $light-color;
+    //     border-right: 1px solid $light-color;
+    // }
 
     .contact-container {
         height: 120vh;

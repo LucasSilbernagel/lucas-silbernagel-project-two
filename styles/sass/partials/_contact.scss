@@ -19,12 +19,15 @@
     padding-left: 0;
     display: flex;
     flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 465px;
 }
 
 .contact-container li {
     width: 70%;
     max-width: 235px;
     margin: 0 auto;
+    margin-left: 0;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -37,6 +40,7 @@
 .contact-form {
     margin: 0 auto;
     margin-top: 50px;
+    margin-left: 0;
     width: 90%;
 }
 
@@ -68,6 +72,11 @@
     height: 100px;
 }
 
+.contact-form input:hover,
+.comment-box:hover {
+    border-bottom: 1px solid $dark-color;
+}
+
 .contact-form input:focus,
 .contact-form input:active,
 .comment-box:focus,
@@ -83,12 +92,13 @@
     margin-bottom: 50px;
     margin-left: 20px;
     padding-bottom: 5px;
+    padding-top: 5px;
     font-size: 1rem;
 }
 
 .contact-submit:hover {
-    background: $light-color;
     cursor: pointer;
+    border: 1px solid $dark-color;
 }
 
 .contact-footer-image {

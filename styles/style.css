@@ -338,10 +338,12 @@ nav {
 .top-nav li {
   padding-bottom: 10px;
   padding-top: 10px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
 .top-nav li:hover {
-  background: #EDEDED;
+  background: #A4F1DC;
 }
 
 .top-nav a {
@@ -588,7 +590,7 @@ footer button:hover {
   max-width: 165px;
 }
 
-.footer-icons a:hover {
+footer a:hover {
   color: #999999;
 }
 
@@ -1171,12 +1173,15 @@ article,
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 465px;
 }
 
 .contact-container li {
   width: 70%;
   max-width: 235px;
   margin: 0 auto;
+  margin-left: 0;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -1189,6 +1194,7 @@ article,
 .contact-form {
   margin: 0 auto;
   margin-top: 50px;
+  margin-left: 0;
   width: 90%;
 }
 
@@ -1223,6 +1229,11 @@ article,
   height: 100px;
 }
 
+.contact-form input:hover,
+.comment-box:hover {
+  border-bottom: 1px solid #000000;
+}
+
 .contact-form input:focus,
 .contact-form input:active,
 .comment-box:focus,
@@ -1238,12 +1249,13 @@ article,
   margin-bottom: 50px;
   margin-left: 20px;
   padding-bottom: 5px;
+  padding-top: 5px;
   font-size: 1rem;
 }
 
 .contact-submit:hover {
-  background: #EDEDED;
   cursor: pointer;
+  border: 1px solid #000000;
 }
 
 .contact-footer-image {
@@ -1399,7 +1411,7 @@ article,
     border: none;
   }
   .contact-container {
-    height: 150vh;
+    height: 190vh;
   }
   .contact-submit {
     margin-top: 40px;
@@ -1645,7 +1657,7 @@ article,
     text-align: left;
   }
   .contact-container {
-    height: 155vh;
+    height: 170vh;
   }
 }
 
@@ -1847,6 +1859,10 @@ article,
   .contact-container {
     height: 140vh;
   }
+  .contact-container ul {
+    max-width: none;
+    width: 100%;
+  }
   .footer-container {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
@@ -1924,13 +1940,13 @@ article,
     margin-top: 0;
     width: 40%;
   }
-}
-
-@media (min-width: 1373px) {
   li.address {
     border-left: 1px solid #EDEDED;
     border-right: 1px solid #EDEDED;
   }
+}
+
+@media (min-width: 1373px) {
   .contact-container {
     height: 120vh;
   }

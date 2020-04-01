@@ -48,10 +48,11 @@ nav {
 .top-nav li {
     padding-bottom: 10px;
     padding-top: 10px;
+    transition: all 0.4s;
 }
 
 .top-nav li:hover {
-    background: $light-color;
+    background: $text-accent;
 }
 
 .top-nav a {

@@ -469,14 +469,14 @@ nav {
 .home-hero {
   background: url("../assets/home-1.jpeg");
   background-size: cover;
-  height: 30vh;
+  height: 230.4px;
   background-repeat: no-repeat;
 }
 
 .blog-hero {
   background: url("../assets/blog-1.jpeg");
   background-size: cover;
-  height: 30vh;
+  height: 230.4px;
   background-repeat: no-repeat;
 }
 
@@ -485,7 +485,7 @@ nav {
   background-position-x: -620px;
   background-position-y: -120px;
   background-repeat: no-repeat;
-  height: 58vh;
+  height: 445.4px;
 }
 
 footer,
@@ -610,7 +610,7 @@ h2.home-section-header-1 {
 
 .about {
   background: #EDEDED;
-  height: 105vh;
+  height: 806.4px;
   padding-top: 20px;
 }
 
@@ -735,7 +735,7 @@ h2.home-section-header-1 {
 }
 
 .testimonial {
-  height: 90vh;
+  height: 691.2px;
   padding-top: 50px;
 }
 
@@ -772,7 +772,7 @@ h2.home-section-header-1 {
   background: #FFFFFF;
   width: 95%;
   max-width: 750px;
-  height: 65vh;
+  height: 499.2px;
   margin: 0 auto;
   padding-top: 10px;
   text-align: center;
@@ -862,7 +862,7 @@ h2.home-section-header-1 {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
-  height: 110vh;
+  height: 844.8px;
 }
 
 .information-container {
@@ -1257,7 +1257,7 @@ article,
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 60vh;
+  height: 460.8px;
 }
 
 @media (min-width: 335px) {
@@ -1318,7 +1318,7 @@ article,
     padding-right: 5px;
   }
   footer {
-    height: 65vh;
+    height: 512.4px;
     padding-top: 40px;
   }
   footer ul {
@@ -1356,13 +1356,13 @@ article,
 
 @media (min-width: 400px) {
   .about {
-    height: 120vh;
+    height: 921.6px;
   }
   .girl-photo-container:after {
     top: 35%;
   }
   .information {
-    height: 130vh;
+    height: 998.4px;
   }
   .comment-submit-container {
     width: 100%;
@@ -1405,13 +1405,13 @@ article,
     border: none;
   }
   .contact-container {
-    height: 190vh;
+    height: 1459.2px;
   }
   .contact-submit {
     margin-top: 40px;
   }
   .information {
-    height: 150vh;
+    height: 1152px;
   }
 }
 
@@ -1477,11 +1477,11 @@ article,
   }
   .home-hero,
   .blog-hero {
-    height: 60vh;
+    height: 460.8px;
   }
   .about {
     padding-top: 50px;
-    height: 140vh;
+    height: 1075.2px;
   }
   .girl-photo-container {
     margin-top: 40px;
@@ -1514,7 +1514,7 @@ article,
     left: 250px;
   }
   .about {
-    height: 85vh;
+    height: 652.8px;
   }
   .about-article {
     display: -webkit-box;
@@ -1549,7 +1549,7 @@ article,
   .contact-container {
     max-width: 70%;
     margin: 0 auto;
-    height: 175vh;
+    height: 1344px;
   }
   .contact-types {
     max-width: 1400px;
@@ -1567,7 +1567,7 @@ article,
 
 @media (min-width: 850px) {
   .header-container {
-    height: 30vh;
+    height: 230.4px;
   }
   nav {
     -webkit-box-orient: horizontal;
@@ -1615,7 +1615,7 @@ article,
   }
   .about {
     padding-top: 100px;
-    height: 100vh;
+    height: 768px;
   }
   .girl-photo-container:after {
     top: 70%;
@@ -1633,13 +1633,13 @@ article,
     max-width: 520px;
   }
   .contact-footer {
-    height: 50vh;
+    height: 432.4px;
   }
 }
 
 @media (min-width: 915px) {
   .information {
-    height: 90vh;
+    height: 691.2px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -1651,7 +1651,7 @@ article,
     text-align: left;
   }
   .contact-container {
-    height: 170vh;
+    height: 1305.6px;
   }
 }
 
@@ -1727,7 +1727,7 @@ article,
     margin-bottom: 56px;
   }
   .leave-comment {
-    height: 90vh;
+    height: 691.2px;
   }
   .leave-comment,
   .leave-comment fieldset {
@@ -1739,7 +1739,7 @@ article,
     height: 150px;
   }
   footer {
-    height: 50vh;
+    height: 343.4px;
   }
 }
 
@@ -1748,7 +1748,7 @@ article,
     left: 450px;
   }
   .about {
-    height: 110vh;
+    height: 844.8px;
   }
   .girl-photo-container {
     max-width: none;
@@ -1819,7 +1819,7 @@ article,
 
 @media (min-width: 1100px) {
   .header-container {
-    height: 25vh;
+    height: 192px;
   }
   nav {
     padding-top: 50px;
@@ -1847,11 +1847,11 @@ article,
     background-position-x: 0;
     background-position-y: 0;
     background-size: contain;
-    height: 60vh;
+    height: 460.8px;
     margin-bottom: 100px;
   }
   .contact-container {
-    height: 140vh;
+    height: 1075.2px;
   }
   .contact-container ul {
     max-width: none;
@@ -1878,7 +1878,7 @@ article,
   }
   .home-hero,
   .blog-hero {
-    height: 90vh;
+    height: 691.2px;
   }
   .about-article {
     width: 70%;
@@ -1910,7 +1910,7 @@ article,
     width: 30%;
   }
   .contact-container {
-    height: 140vh;
+    height: 1075.2px;
     max-width: 1000px;
   }
 }
@@ -1924,7 +1924,7 @@ article,
     padding-top: 0;
   }
   .features ul {
-    height: 50vh;
+    height: 384px;
     margin-left: 50px;
   }
   .features li {
@@ -1942,6 +1942,6 @@ article,
 
 @media (min-width: 1373px) {
   .contact-container {
-    height: 120vh;
+    height: 921.6px;
   }
 }

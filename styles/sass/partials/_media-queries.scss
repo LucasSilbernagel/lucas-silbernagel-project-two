@@ -53,7 +53,7 @@
     }
 
     footer {
-        height: 65vh;
+        height: 512.4px;
         padding-top: 40px;
     }
 
@@ -94,7 +94,7 @@
 
 @media (min-width: 400px) {
     .about {
-        height: 120vh;
+        height: 921.6px;
     }
 
     .girl-photo-container:after {
@@ -102,7 +102,7 @@
     }
 
     .information {
-        height: 130vh;
+        height: 998.4px;
     }
 
     .comment-submit-container {
@@ -156,7 +156,7 @@
     }
 
     .contact-container {
-        height: 190vh;
+        height: 1459.2px;
     }
 
     .contact-submit {
@@ -164,7 +164,7 @@
     }
 
     .information {
-        height: 150vh;
+        height: 1152px;
     }
 }
 
@@ -222,12 +222,12 @@
 
     .home-hero,
     .blog-hero {
-        height: 60vh;
+        height: 460.8px;
     }
 
     .about {
         padding-top: 50px;
-        height: 140vh;
+        height: 1075.2px;
     }
 
     .girl-photo-container {
@@ -268,7 +268,7 @@
     }
 
     .about {
-        height: 85vh;
+        height: 652.8px;
     }
 
     .about-article {
@@ -303,7 +303,7 @@
     .contact-container {
         max-width: 70%;
         margin: 0 auto;
-        height: 175vh;
+        height: 1344px;
     }
 
     .contact-types {
@@ -324,7 +324,7 @@
 
 @media (min-width: 850px) {
     .header-container {
-        height: 30vh;
+        height: 230.4px;
     }
 
     nav {
@@ -365,7 +365,7 @@
 
     .about {
         padding-top: 100px;
-        height: 100vh;
+        height: 768px;
     }
 
     .girl-photo-container:after {
@@ -388,13 +388,13 @@
     }
 
     .contact-footer {
-        height: 50vh;
+        height: 432.4px;
     }
 }
 
 @media (min-width: 915px) {
     .information {
-        height: 90vh;
+        height: 691.2px;
         flex-direction: row;
     }
 
@@ -405,7 +405,7 @@
     }
 
     .contact-container {
-        height: 170vh;
+        height: 1305.6px;
     }
 }
 
@@ -487,7 +487,7 @@
     }
 
     .leave-comment {
-        height: 90vh;
+        height: 691.2px;
     }
 
     .leave-comment,
@@ -502,7 +502,7 @@
     }
 
     footer {
-        height: 50vh;
+        height: 343.4px;
     }
 }
 
@@ -512,7 +512,7 @@
     }
 
     .about {
-        height: 110vh;
+        height: 844.8px;
     }
 
     .girl-photo-container {
@@ -596,7 +596,7 @@
 
 @media (min-width: 1100px) {
     .header-container {
-        height: 25vh;
+        height: 192px;
     }
 
     nav {
@@ -631,12 +631,12 @@
         background-position-x: 0;
         background-position-y: 0;
         background-size: contain;
-        height: 60vh;
+        height: 460.8px;
         margin-bottom: 100px;
     }
 
     .contact-container {
-        height: 140vh;
+        height: 1075.2px;
     }
 
     .contact-container ul {
@@ -666,7 +666,7 @@
 
     .home-hero,
     .blog-hero {
-        height: 90vh;
+        height: 691.2px;
     }
 
     .about-article {
@@ -706,7 +706,7 @@
     }
 
     .contact-container {
-        height: 140vh;
+        height: 1075.2px;
         max-width: 1000px;
     }
 }
@@ -722,7 +722,7 @@
     }
 
     .features ul {
-        height: 50vh;
+        height: 384px;
         margin-left: 50px;
     }
 
@@ -742,12 +742,7 @@
 }
 
 @media (min-width: 1373px) {
-    // li.address {
-    //     border-left: 1px solid $light-color;
-    //     border-right: 1px solid $light-color;
-    // }
-
     .contact-container {
-        height: 120vh;
+        height: 921.6px;
     }
 }

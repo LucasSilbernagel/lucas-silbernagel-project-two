@@ -325,14 +325,13 @@ nav {
 }
 
 .top-nav {
-  opacity: 0;
   visibility: hidden;
+  top: -200px;
   position: fixed;
   background: #FFFFFF;
   padding-left: 0;
   z-index: 20;
   width: 200px;
-  top: 60px;
   right: 0;
   -webkit-transition: all 0.4s ease-in;
   transition: all 0.4s ease-in;
@@ -359,8 +358,8 @@ nav {
 }
 
 #hamburger-toggle:checked ~ .top-nav {
-  opacity: 95%;
   visibility: visible;
+  top: 60px;
   position: fixed;
 }
 
@@ -410,7 +409,7 @@ nav {
 
 .hamburger-toggle:checked + label .line1,
 .hamburger-toggle:checked + label .line3 {
-  opacity: 0%;
+  visibility: hidden;
 }
 
 .hamburger-toggle:checked + label .line1 {

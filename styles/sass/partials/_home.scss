@@ -148,9 +148,13 @@ h2.home-section-header-1 {
 }
 
 .angle-left-desktop:hover,
+.angle-left-desktop:focus,
 .angle-right-desktop:hover,
+.angle-right-desktop:focus,
 .angle-left-mobile:hover,
-.angle-right-mobile:hover {
+.angle-left-mobile:focus,
+.angle-right-mobile:hover,
+.angle-right-mobile:focus {
     color: $medium-color;
     cursor: pointer;
 }
@@ -230,7 +234,9 @@ h2.home-section-header-1 {
 }
 
 .gallery-image-container li:hover,
-.gallery-image-container img:hover {
+.gallery-image-container li:focus,
+.gallery-image-container img:hover,
+.gallery-image-container img:focus {
     transform: scale(1.1);
     cursor: pointer;
 }

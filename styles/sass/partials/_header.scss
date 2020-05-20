@@ -3,8 +3,11 @@ header a {
 }
 
 header a:hover,
+header a:focus,
 .header-buttons:hover,
-.shopping-container:hover {
+.header-buttons:focus,
+.shopping-container:hover,
+.shopping-container:focus {
     color: $medium-color;
     cursor: pointer;
 }
@@ -53,7 +56,8 @@ nav {
     transition: all 0.4s;
 }
 
-.top-nav li:hover {
+.top-nav li:hover,
+.top-nav li:focus {
     background: $text-accent;
 }
 
@@ -62,7 +66,8 @@ nav {
     padding-right: 75px;
 }
 
-.top-nav a:hover {
+.top-nav a:hover,
+.top-nav a:focus {
     color: $dark-color;
 }
 

@@ -1,3 +1,7 @@
+nav {
+    display: none;
+}
+
 header a {
     color: $dark-color;
 }
@@ -24,8 +28,6 @@ nav {
 }
 
 // Mobile/hamburger menu styling begins
-// Inspired by Vincci Tsui
-// https://medium.com/@tsui.vincci/my-journey-with-the-hamburger-395d944fbf2b
 .hamburger {
     display: flex;
     align-items: flex-start;
@@ -73,7 +75,7 @@ nav {
 
 #hamburger-toggle:checked ~ .top-nav {
     visibility: visible;
-    top: 60px;
+    top: 80px;
     position: fixed;
 }
 
@@ -147,7 +149,21 @@ nav {
 // Mobile/hamburger menu styling ends
 
 .nav-header {
-    position: absolute;
+    position: relative;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.nav-icons {
+    width: 60%;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    font-size: 2rem;
+    margin-bottom: 10px;
 }
 
 .shopping-container {

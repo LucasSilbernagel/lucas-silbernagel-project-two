@@ -27,7 +27,8 @@ footer a {
     width: 85%;
 }
 
-.footer-links a:hover {
+.footer-links a:hover,
+.footer-links a:focus {
     color: $medium-color;
 }
 
@@ -75,7 +76,8 @@ footer button::after {
     flex: 1 0 auto;
 }
 
-footer button:hover {
+footer button:hover,
+footer button:focus {
     cursor: pointer;
     color: $medium-color;
 }
@@ -92,7 +94,8 @@ footer button:hover {
     max-width: 165px;
 }
 
-footer a:hover {
+footer a:hover,
+footer a:focus {
     color: $medium-color;
 }
 

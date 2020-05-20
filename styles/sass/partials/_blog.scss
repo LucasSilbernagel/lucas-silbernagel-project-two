@@ -89,7 +89,8 @@ article,
     transition: all 0.7s;
 }
 
-.blog-icons i:hover {
+.blog-icons i:hover,
+.blog-icons i:focus {
     transform: scale(1.5);
 }
 
@@ -122,7 +123,8 @@ article,
     transition: all 0.7s;
 }
 
-.related article:hover {
+.related article:hover,
+.related article:focus {
     box-shadow: 0 3px 6px rgba(0,0,0,0.3), inset 0 -3px 3px rgba(0,0,0,0.1);
     transform: scale(1.1);
     cursor: pointer;
@@ -210,7 +212,9 @@ article,
 }
 
 .leave-comment input:hover,
-.leave-comment textarea:hover {
+.leave-comment input:focus,
+.leave-comment textarea:hover,
+.leave-comment textarea:focus {
     border-bottom: 1px solid $dark-color;
 }
 
@@ -225,7 +229,8 @@ article,
     width: 170px;
 }
 
-.comment-submit:hover {
+.comment-submit:hover,
+.comment-submit:focus {
     background: darken($button-accent, 10);
     cursor: pointer;
 }

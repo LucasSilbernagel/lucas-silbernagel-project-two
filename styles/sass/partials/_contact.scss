@@ -72,7 +72,9 @@
 }
 
 .contact-form input:hover,
-.comment-box:hover {
+.contact-form input:focus,
+.comment-box:hover,
+.comment-box:focus {
     border-bottom: 1px solid $dark-color;
 }
 
@@ -95,7 +97,8 @@
     font-size: 1rem;
 }
 
-.contact-submit:hover {
+.contact-submit:hover,
+.contact-submit:focus {
     cursor: pointer;
     border: 1px solid $dark-color;
 }
